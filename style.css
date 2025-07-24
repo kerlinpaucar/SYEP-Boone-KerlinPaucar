@@ -1,19 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* General page styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6f0; /* light pink background */
+  margin: 0;
+  padding: 0;
+  color: #333; /* dark gray text for readability */
 }
 
-body{
-    background-color:rgb(74, 89, 49);
-    text-align: center;
-    line-height: 2.1;
+h1, h2 {
+  text-align: center;
+  color: #222;
 }
 
-.hero img{
-    border-radious:50%;
+.hero {
+  text-align: center;
+  padding: 20px;
 }
 
-.accent{
-    color:rgb(31, 30, 30)
+.hero img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.section {
+  background-color: #fffafc; /* light blush */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  border: 1px solid #ffc0cb; /* pastel pink border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.grid div {
+  background-color: #ffcce0; /* soft pink */
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f2e3e8;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
 }

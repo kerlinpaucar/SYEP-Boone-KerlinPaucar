@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kerlin's Portflio</title>
-  <-- 
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
   <link href="style.css" rel="stylesheet">
-  <-- External Style CSS -->
+ 
+  <link href="style2.css" rel="stylesheet">
 </head>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -33,32 +34,42 @@
 
 
 
-
-
 <!--This is where most of our code will live-->
 <body>
-  <section id="home" class="hero">
-  <img src="lily.jpg" width="350px" height="300px"/>
-  <h2>Hi, I am <span class="accent">Kerlin Sydney Caguana Paucar</span></h2>
-  <p>I'm a high school student learning web development!</p>
-  </section>
-       
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>Hey, I’m Kerlin! I’m a high school student who enjoys listening to music, playing volleyball, and spending time with my dog. I like being around people I’m close with and just having fun when I can. I try to stay positive and open to new experiences, even if they’re a little outside my comfort zone. I’m still figuring out what I want to do in the future, but I’m taking it one step at a time. For now, I’m just focused on enjoying life and learning more about myself.</p>
-  </section>
+    <main>
+        <section class="container">
+            <div class="title">
+                <h2>Testimonials</h2>
+            </div>
 
-  <section id="skills" class="section">
-    <h2>My Skills</h2>
-    <div class="grid">
-      <div>HTML</div>
-      <div>CSS</div>
-      <div>JavaScript</div>
-    </div>
-  </section>
+            <article class="review">
+                <div class="img-container">
+                    <img src="" id="person-img"/>
+                </div>
+
+                <h4 id="author">Insert Name Here</h4>
+                <p id="job">Insert Job Here</p>
+                <p id="info">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.
+                </p>
+
+                <div class="button-container">
+                    <button class="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <button class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </article>
+        </section>
+    </main>
 
 
-  
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
